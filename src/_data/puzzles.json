@@ -21,7 +21,7 @@
     "brand": "Jumbo",
     "title": "Francien Horoscope",
     "pieces": 1000,
-    "done": false
+    "done": true
   },
   {
     "brand": "MB",
@@ -33,7 +33,7 @@
     "brand": "Puzzelman",
     "title": "Heer Bommel en Tom Poes",
     "pieces": 1000,
-    "done": false
+    "done": true
   },
   {
     "brand": "Ravensburger",
@@ -63,7 +63,7 @@
     "brand": "Ravensburger",
     "title": "Land of the Lorikeet",
     "pieces": 1000,
-    "done": false
+    "done": true
   },
   {
     "brand": "Ravensburger",
@@ -75,7 +75,7 @@
     "brand": "Ravensburger",
     "title": "Moments at Sea",
     "pieces": 1000,
-    "done": false
+    "done": true
   },
   {
     "brand": "Ravensburger",
@@ -105,7 +105,7 @@
     "brand": "Schmidt",
     "title": "Alice in Wonderland",
     "pieces": 1000,
-    "done": false
+    "done": true
   },
   {
     "brand": "Schmidt",
@@ -129,6 +129,6 @@
     "brand": "Ravensburger",
     "title": "Cherry Blossom Time",
     "pieces": 1000,
-    "done": false
+    "done": true
   }
 ]
