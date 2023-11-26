@@ -6,7 +6,7 @@ layout: layouts/page.njk
 <div class="wrapper">
   {% for brand, puzzles in puzzles.puzzlesAll | groupby("brand") %}
   <h2>{{ brand }}</h2>
-  {% for puzzle in puzzles %}
+  {% for puzzle in puzzles|sort(attribute='title') %}
   <li>
     <div class="img">
       <img src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.jpg">

@@ -112,8 +112,11 @@ h1 span {
 }
 
 h2 {
-  margin-bottom: 8px;
-  font-size: 1.5rem;
+  margin: 64px 0 12px 0;
+  font-size: 1.75rem;
+}
+h2:first-of-type {
+  margin-top: 0;
 }
 
 li {
@@ -128,7 +131,7 @@ div {
 div > img {
   max-width: 100%;
   border-radius: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.6);
 }
 div > span {
