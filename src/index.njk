@@ -11,7 +11,7 @@ layout: layouts/page.njk
       <img 
         loading="lazy"
         alt="{{ puzzle.title }}"
-        src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.jpg"
+        src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.webp"
       >
       {% if puzzle.done == true %}
       <span class="filler"></span>
