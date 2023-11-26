@@ -87,156 +87,17 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-@font-face {
-  font-family: "Britannic";
-  src: url("/assets/fonts/BritannicBold.woff2") format("woff2");
-  font-style: normal;
-  font-display: swap;
-}
-header {
-  background-color: #f2e7e2;
-  border: solid 1px #85310f;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-header div {
+h1 {
   display: flex;
   align-items: center;
-  padding: 16px 24px;
   justify-content: center;
-}
-@media (min-width: 400px) {
-  header div {
-    justify-content: space-between;
-  }
-}
-header nav {
-  background-color: #85310f;
   padding: 8px;
-}
-header nav ol {
-  list-style: "";
-  display: flex;
-  gap: 48px;
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  margin: 0 auto;
-}
-header nav a {
-  color: #ffffff;
-}
-header h1 {
-  font-family: Britannic, Calibri, sans-serif;
-  font-size: 5rem;
-  color: #087b56;
-  letter-spacing: 1px;
-}
-header h1 span {
-  color: #85310f;
-}
-header h1 a {
-  text-decoration: none;
-  color: currentColor;
-}
-header h1 a:hover {
-  text-decoration: underline;
-}
-header quote {
-  display: none;
-  color: #85310f;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-@media (min-width: 400px) {
-  header quote {
-    display: block;
-  }
-}
-
-footer {
-  margin-bottom: 48px;
-}
-
-aside > div {
-  width: 260px;
-  border: solid 1px #85310f;
-  border-radius: 4px;
-  background-color: #f2e7e2;
-  padding: 12px;
-  font-size: 1.1rem;
-}
-aside h2 {
-  font-size: 1.5rem;
-  color: #087b56;
-  margin-bottom: 24px;
-}
-aside h3 {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #087b56;
-  margin-top: 24px;
-}
-aside ol {
-  padding: 0;
-  margin: 0;
-  list-style-type: "";
-}
-
-main h2 {
-  font-size: 1.7rem;
-  margin: 11px 0 16px 0;
-  color: #85310f;
-}
-main a {
-  color: #087b56;
-}
-main a:hover {
-  text-decoration-color: #85310f;
-}
-
-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
-  margin-top: 32px;
-}
-section img {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-section h3 {
-  background-color: #087b56;
-  color: #ffffff;
-  text-align: center;
-  font-size: 1.75rem;
-  padding: 12px 0;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-section p {
-  line-height: 1.3;
-}
-section p:first-of-type {
-  margin-top: 16px;
-}
-section a:hover {
-  color: #087b56 !important;
-}
-section div.contact {
-  background-color: #85310f;
-  border-radius: 4px;
-  color: #ffffff;
-  padding: 24px;
-}
-section div.contact strong {
-  font-family: Britannic, Calibri, sans-serif;
   font-size: 2.5rem;
-  letter-spacing: 1px;
+  text-transform: uppercase;
+  gap: 16px;
 }
-section div.contact img {
-  width: 100%;
-  margin-top: 32px;
+h1 span {
+  width: 48px;
 }
 
 body {
@@ -246,22 +107,35 @@ body {
   font-size: 1.25rem;
 }
 
-p.mb {
-  margin-bottom: 16px;
-}
-
 .wrapper {
   margin: 0 auto;
+  width: 100%;
+  padding: 8px;
 }
-@media (min-width: 400px) {
+@media screen and (min-width: 600px) {
   .wrapper {
-    width: 1200px;
+    width: 600px;
   }
 }
 
-.content {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 24px;
-  margin-top: 24px;
+li {
+  list-style-type: "";
+  margin-bottom: 32px;
+}
+
+div {
+  position: relative;
+  line-height: 1.1;
+}
+div > img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.6);
+}
+div > span {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 48px;
 }

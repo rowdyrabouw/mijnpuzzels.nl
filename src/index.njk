@@ -2,48 +2,14 @@
 title: Welkom
 layout: layouts/page.njk
 ---
-
-<h2>Training op muziek voor kracht, conditie en brein door Peter Paul Post in Gouda</h2>
-<p class="mb">De wekelijkse groepsles van 75 minuten is eenvoudig, afwisselend en motiverend. Iedere week
-  andere muziek! Je wordt fysiek en mentaal sterker, fitter, blijer, rustiger en evenwichtiger.</p>
-  <p><strong>Nieuwsgierig?</strong><br/>
-    Meld je dan aan voor de <a href="/contact"><strong>drie gratis proeflessen</strong></a>, dan weet je echt of het iets voor je is.</p>
-<section>
-  <div>
-    <img src="/assets/img/sterker.jpg" alt="" />
-    <h3>Sterker</h3>
-    <p><strong>Je wordt sterker.</strong></p>
-    <p>Iedere les bevat gerichte oefeningen voor alle spiergroepen.</p>
-  </div>
-  <div>
-    <img src="/assets/img/fitter.jpg" alt="" />
-    <h3>Fitter</h3>
-    <p><strong>Je wordt fitter.</strong></p>
-    <p>Je uithoudingsvermogen verbetert door de oefeningen die het hartlongsysteem activeren.</p>
-  </div>
-  <div>
-    <img src="/assets/img/blijer.jpg" alt="" />
-    <h3>Blijer</h3>
-    <p><strong>Je wordt blijer.</strong></p>
-    <p>Je doet de korte, afwisselende oefeningen op muziek ‘van ABBA tot ZAPPA’. Daardoor wordt de training een feestje van herkenning.</p>
-  </div>
-  <div>
-    <img src="/assets/img/rustiger.jpg" alt="" />
-    <h3>Rustiger</h3>
-    <p><strong>Je wordt meer ontspannen.</strong></p>
-    <p>Inspanning en ontspanning wisselen elkaar af en we eindigen met een oefening voor diepere ontspanning. Tijdens zowel inspanning als ontspanning krijgt de ademhaling veel aandacht.</p>
-  </div>
-  <div>
-    <img src="/assets/img/evenwichtiger.jpg" alt="" />
-    <h3>Evenwichtiger</h3>
-    <p><strong>Je coördinatie wordt beter.</strong></p>
-    <p>Je concentratievermogen ook! Daaraan werken we met cognitieve fitness zoals brainboosters en mindful bewegen.</p>
-  </div>
-  <div class="contact">
-    <strong>FitFM</strong><br/>
-    Peter Paul Post<br/>
-    06 - 409 907 83<br/>
-    <a href="mailto:fitfm.gouda@gmail.com">fitfm.gouda@gmail.com</a><br/>
-    <img src="/assets/img/peterpaulpost.jpg" alt="" />
-  </div>
-</section>
+<div class="wrapper">
+  {% for puzzle in puzzles.puzzlesAll|sort(attribute='brand') %}
+  <li>
+    <div class="img">
+      <img src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.jpg">
+      {% if puzzle.done == true %}{% include "./_includes/svg/checked.njk" %}{% endif %}
+    </div>
+    <strong>{{ puzzle.title }}</strong> ({{ puzzle.pieces }})<br/>
+    <em>{{ puzzle.brand }}</em>
+  {% endfor %}
+</div>
