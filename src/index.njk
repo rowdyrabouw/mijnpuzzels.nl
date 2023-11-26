@@ -11,6 +11,7 @@ layout: layouts/page.njk
     <div class="img">
       <img 
       {% if index > 2 %}loading="lazy"{% endif %}
+        width="325"
         alt="{{ puzzle.title }}"
         src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.webp"
       >
