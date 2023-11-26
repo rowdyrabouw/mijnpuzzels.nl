@@ -10,8 +10,9 @@ layout: layouts/page.njk
     <div class="img">
       <img loading="lazy" src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.jpg">
       {% if puzzle.done == true %}{% include "./_includes/svg/checked.njk" %}{% endif %}
+      <span class="pieces">{{ puzzle.pieces }}</span>
     </div>
-    <strong>{{ puzzle.title }}</strong> ({{ puzzle.pieces }})
+    <strong>{{ puzzle.title }}</strong>
   </li>
   {% endfor %}
   {% endfor %}

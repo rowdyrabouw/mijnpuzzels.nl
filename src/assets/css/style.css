@@ -140,6 +140,19 @@ div > span {
   right: 16px;
   width: 64px;
 }
+div > span.pieces {
+  color: #141414;
+  background-color: #ffffff;
+  bottom: 16px;
+  left: 16px;
+  right: auto;
+  top: auto;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+}
 
 body {
   color: #141414;
