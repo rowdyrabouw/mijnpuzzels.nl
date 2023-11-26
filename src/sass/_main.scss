@@ -1,0 +1,35 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  padding: 12px;
+  @media screen and (min-width: 600px) {
+    width: 600px;
+  }
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+}
+
+li {
+  list-style-type: "";
+  margin-bottom: 32px;
+}
+
+div {
+  position: relative;
+  line-height: 1.1;
+  & > img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.6);
+  }
+  & > span {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 48px;
+  }
+}

@@ -1,15 +1,19 @@
 ---
-title: Welkom
+title: Alle puzzels
 layout: layouts/page.njk
 ---
+
 <div class="wrapper">
-  {% for puzzle in puzzles.puzzlesAll|sort(attribute='brand') %}
+  {% for brand, puzzles in puzzles.puzzlesAll | groupby("brand") %}
+  <h2>{{ brand }}</h2>
+  {% for puzzle in puzzles %}
   <li>
     <div class="img">
       <img src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.jpg">
       {% if puzzle.done == true %}{% include "./_includes/svg/checked.njk" %}{% endif %}
     </div>
-    <strong>{{ puzzle.title }}</strong> ({{ puzzle.pieces }})<br/>
-    <em>{{ puzzle.brand }}</em>
+    <strong>{{ puzzle.title }}</strong> ({{ puzzle.pieces }})
+  </li>
+  {% endfor %}
   {% endfor %}
 </div>

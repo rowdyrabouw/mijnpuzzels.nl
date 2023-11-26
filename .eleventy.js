@@ -16,10 +16,7 @@ module.exports = (eleventyConfig) => {
     user: "rowdy"
   });
 
-  // eleventyConfig.addPassthroughCopy("src/.htaccess");
-  // eleventyConfig.addPassthroughCopy("src/*.txt");
   eleventyConfig.addPassthroughCopy("src/assets");
-  // eleventyConfig.addPassthroughCopy({ "src/icons": "/" });
   eleventyConfig.addPassthroughCopy({ "src/txt": "/" });
   eleventyConfig.addPassthroughCopy({ "src/favicon": "/" });
 
