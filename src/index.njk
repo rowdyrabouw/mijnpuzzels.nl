@@ -8,8 +8,15 @@ layout: layouts/page.njk
   {% for puzzle in puzzles|sort(attribute='title') %}
   <li>
     <div class="img">
-      <img loading="lazy" src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.jpg">
-      {% if puzzle.done == true %}{% include "./_includes/svg/checked.njk" %}{% endif %}
+      <img 
+        loading="lazy"
+        alt="{{ puzzle.title }}"
+        src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.jpg"
+      >
+      {% if puzzle.done == true %}
+      <span class="filler"></span>
+        {% include "./_includes/svg/checked.njk" %}
+      {% endif %}
       <span class="pieces">{{ puzzle.pieces }}</span>
     </div>
     <strong>{{ puzzle.title }}

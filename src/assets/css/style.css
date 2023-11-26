@@ -124,6 +124,12 @@ li {
   margin-bottom: 32px;
 }
 
+strong {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
 .id {
   font-size: 0.9rem;
   font-weight: normal;
@@ -143,7 +149,14 @@ div > span {
   position: absolute;
   top: 16px;
   right: 16px;
-  width: 64px;
+  width: 48px;
+}
+div > span.filler {
+  background-color: #141414;
+  top: 28px;
+  right: 28px;
+  width: 24px;
+  height: 24px;
 }
 div > span.pieces {
   color: #141414;
