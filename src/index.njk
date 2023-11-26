@@ -12,7 +12,9 @@ layout: layouts/page.njk
       {% if puzzle.done == true %}{% include "./_includes/svg/checked.njk" %}{% endif %}
       <span class="pieces">{{ puzzle.pieces }}</span>
     </div>
-    <strong>{{ puzzle.title }}</strong>
+    <strong>{{ puzzle.title }}
+      {% if puzzle.id %}<span class="id">({{ puzzle.id }})</span>{% endif %}
+    </strong>
   </li>
   {% endfor %}
   {% endfor %}
