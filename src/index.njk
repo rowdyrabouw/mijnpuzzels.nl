@@ -8,25 +8,26 @@ layout: layouts/page.njk
     <h2>{{ brand }}</h2>
     <ol>
       {% for puzzle in puzzles | sort(attribute='title') %}
-        <li>
-          <div class="img">
-            <img 
-            {% if index > 2 %}loading="lazy"{% endif %}
-              width="340"
-              height="243"
-              alt="{{ puzzle.title }}"
-              src="/assets/img/{{ puzzle.brand | lower | replace(" ", "-") }}-{{ puzzle.title | lower | replace(" ", "-")}}-{{ puzzle.pieces}}.webp"
-            >
-            {% if puzzle.done == true %}
-            <span class="filler"></span>
-              {% include "./_includes/svg/checked.njk" %}
-            {% endif %}
-            <span class="pieces">{{ puzzle.pieces }}</span>
-          </div>
-          <strong>{{ puzzle.title }}
-            {% if puzzle.id %}<span class="id">({{ puzzle.id }})</span>{% endif %}
-          </strong>
-        </li>
+        {% if puzzle.id > 0 %}
+          <li>
+            <div class="img">
+              <img 
+              {% if index > 2 %}loading="lazy"{% endif %}
+                width="340"
+                alt="{{ puzzle.title }}"
+                src="/assets/img/{{ puzzle.id  }}.webp"
+              >
+              {% if puzzle.done == true %}
+              <span class="filler"></span>
+                {% include "./_includes/svg/checked.njk" %}
+              {% endif %}
+              <span class="pieces">{{ puzzle.pieces }}</span>
+            </div>
+            <strong>{{ puzzle.title }}
+              {% if puzzle.eid %}<span class="id">({{ puzzle.eid }})</span>{% endif %}
+            </strong>
+          </li>
+        {% endif %}
       {% endfor %}
     </ol>
   {% endfor %}

@@ -1,146 +1,419 @@
 [
   {
+    "id": 1,
     "brand": "1 Play",
     "title": "Amazing Puzzle Round Patchwork",
     "pieces": 500,
     "done": true
   },
   {
+    "id": 2,
     "brand": "Cobble Hill",
     "title": "Blossoms and Kittens Quilt",
     "pieces": 1000,
     "done": false
   },
   {
+    "id": 3,
     "brand": "Durabo",
     "title": "Bob Ross Snowy Mountains",
     "pieces": 1000,
     "done": false
   },
   {
+    "id": 4,
     "brand": "Jumbo",
     "title": "Francien Horoscope",
     "pieces": 1000,
     "done": true
   },
   {
+    "id": 5,
     "brand": "MB",
     "title": "Snoopy Promenade",
     "pieces": 1000,
     "done": false
   },
   {
+    "id": 6,
     "brand": "Puzzelman",
     "title": "Heer Bommel en Tom Poes",
     "pieces": 1000,
     "done": true
   },
   {
+    "id": 7,
     "brand": "Ravensburger",
     "title": "Exotic Escape",
     "pieces": 1000,
     "done": false,
-    "id": 168279
+    "eid": 168279
   },
   {
+    "id": 8,
     "brand": "Ravensburger",
     "title": "Adventures with Alice",
     "pieces": 1000,
     "done": false,
-    "id": 167333
+    "eid": 167333
   },
   {
+    "id": 9,
     "brand": "Ravensburger",
     "title": "Disney Toyshop",
     "pieces": 1000,
     "done": false,
-    "id": 167340
+    "eid": 167340
   },
   {
+    "id": 10,
     "brand": "Ravensburger",
     "title": "Justice League Challenge",
     "pieces": 1000,
     "done": false,
-    "id": 168842
+    "eid": 168842
   },
   {
+    "id": 11,
     "brand": "Ravensburger",
     "title": "Land of the Lorikeet",
     "pieces": 1000,
     "done": true,
-    "id": 168156
+    "eid": 168156
   },
   {
+    "id": 12,
     "brand": "Ravensburger",
     "title": "Marvel Challenge",
     "pieces": 1000,
     "done": true,
-    "id": 165629
+    "eid": 165629
   },
   {
+    "id": 13,
     "brand": "Ravensburger",
     "title": "Moments at Sea",
     "pieces": 1000,
     "done": true,
-    "id": 169450
+    "eid": 169450
   },
   {
+    "id": 14,
     "brand": "Ravensburger",
     "title": "Nijntje Olifantjes",
     "pieces": 1000,
     "done": false,
-    "id": 171545
+    "eid": 171545
   },
   {
+    "id": 15,
     "brand": "Ravensburger",
     "title": "Peanuts",
     "pieces": 1000,
     "done": false,
-    "id": 175390
+    "eid": 175390
   },
   {
+    "id": 16,
     "brand": "Ravensburger",
     "title": "The Lion King",
     "pieces": 1000,
     "done": false,
-    "id": 197477
+    "eid": 197477
   },
   {
+    "id": 17,
     "brand": "Ravensburger",
     "title": "Tulips and Windmill",
     "pieces": 1000,
     "done": false,
-    "id": 896066
+    "eid": 896066
   },
   {
+    "id": 18,
     "brand": "Schmidt",
     "title": "Alice in Wonderland",
     "pieces": 1000,
     "done": true
   },
   {
+    "id": 19,
     "brand": "Schmidt",
     "title": "Snow White discovers the Cottage",
     "pieces": 1000,
     "done": false
   },
   {
+    "id": 20,
     "brand": "The House of Puzzles",
     "title": "Bee Happy",
     "pieces": 1000,
     "done": false
   },
   {
+    "id": 21,
     "brand": "verstappen.com",
     "title": "Max Verstappen",
     "pieces": 1000,
     "done": false
   },
   {
+    "id": 22,
     "brand": "Ravensburger",
     "title": "Cherry Blossom Time",
     "pieces": 1000,
     "done": true,
-    "id": 167647
+    "eid": 167647
+  },
+  {
+    "id": 23,
+    "brand": "King",
+    "title": "Disney Kunstgallerij",
+    "pieces": 1000,
+    "done": false,
+    "eid": 5071,
+    "ean": 8710125050713
+  },
+  {
+    "id": 24,
+    "brand": "King",
+    "title": "Animal Collection - Cats",
+    "pieces": 1000,
+    "done": false,
+    "eid": 5065,
+    "ean": 8710125050652
+  },
+  {
+    "id": 25,
+    "brand": "Otterhouse",
+    "title": "Cattastic!",
+    "pieces": 1000,
+    "done": false,
+    "ean": 6655985473536
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
+  },
+  {
+    "id": 0,
+    "brand": "",
+    "title": "",
+    "pieces": 1000,
+    "done": false,
+    "eid": 0,
+    "ean": 0
   }
 ]
