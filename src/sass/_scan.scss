@@ -1,0 +1,47 @@
+#html5-qrcode-button-camera-permission,
+#html5-qrcode-button-camera-start,
+#html5-qrcode-button-camera-stop {
+  background-color: $color-text;
+  color: $color-background;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 4px;
+}
+
+#html5-qrcode-anchor-scan-type-change {
+  display: none;
+}
+
+#reader {
+  border: 0 !important;
+  width: 100%;
+  img {
+    display: none;
+  }
+}
+
+#reader__scan_region {
+  min-height: 0 !important;
+}
+#html5-qrcode-select-camera {
+  display: none;
+}
+
+#reader__dashboard_section {
+  padding: 16px 0 !important;
+}
+
+#reader__dashboard_section_csr {
+  span {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  span:first-of-type {
+    display: none;
+  }
+}
+
+#html5-qrcode-anchor-scan-type-change {
+  display: none !important;
+}

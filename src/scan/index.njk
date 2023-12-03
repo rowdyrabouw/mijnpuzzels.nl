@@ -1,0 +1,51 @@
+---
+layout: layouts/page.njk
+---
+
+<script src="/assets/js/html5-qrcode.min.js" type="text/javascript"></script>
+<script src="/assets/js/search.js" type="text/javascript"></script>
+
+<div id="reader"></div>
+
+<div id="puzzleFound" style="display: none;">
+  <p id="puzzleFoundText"></p>
+  <div class="img">
+    <img width="340" alt="" src="">
+  </div>
+  <strong><span id="puzzleTitle"></span>
+    <span class="id" id="puzzleEid"></span>
+  </strong>
+</div>
+
+<p id="puzzleNotFoundText" style="display: none;"></p>
+
+<script>
+  const onScanSuccess = (decodedText, decodedResult) => {
+    console.log(`Scan result: ${decodedText}`, decodedResult);
+    scanner.clear();
+    const ean = decodedText;
+    const puzzle = puzzles.find((puzzle) => (puzzle.ean.toString().includes(ean)));
+    if (puzzle) {
+      const puzzleFound = document.querySelector("#puzzleFound");
+      puzzleFound.style.display = "block";
+      const puzzleFoundText = document.querySelector("#puzzleFoundText");
+      puzzleFoundText.innerHTML = `De puzzel met EAN <b>${ean}</b> is gevonden.`;
+      const img = document.querySelector("#puzzleFound img");
+      img.src = `/assets/img/${puzzle.id}.webp`;
+      const puzzleTitle = document.querySelector("#puzzleTitle");
+      puzzleTitle.innerHTML = puzzle.title;
+      const puzzleExternalId = document.querySelector("#puzzleEid");
+      if (puzzle.eid) {
+        puzzleExternalId.innerHTML = `(${puzzle.eid})`;
+      }
+    } else {
+      const puzzleNotFoundText = document.querySelector("#puzzleNotFoundText");
+      puzzleNotFoundText.style.display = "block";
+      puzzleNotFoundText.innerHTML = `De puzzel met EAN <b>${ean}</b> kan niet gevonden worden.`;
+    }
+  }
+
+  const scanner = new Html5QrcodeScanner("reader", { fps: 6, qrbox: 200 });
+  scanner.render(onScanSuccess);
+</script>
+

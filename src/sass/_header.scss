@@ -5,8 +5,13 @@ h1 {
   padding: 8px;
   font-size: 1.75rem;
   text-transform: uppercase;
+  color: $color-text;
   gap: 16px;
   span {
     width: 48px;
   }
+}
+
+a:has(h1) {
+  text-decoration: none;
 }

@@ -3,9 +3,20 @@ layout: layouts/page.njk
 ---
 
 <div class="wrapper">
+
+  <details>
+    <summary>Merk</summary>
+    <ol>
+      <li><a href="/scan">Barcode scannen</a></li>
+      {% for brand, puzzles in puzzles.puzzlesAll | groupby("brand") %}
+        <li><a href="#{{ brand }}">{{ brand }}</a></li>
+      {% endfor %}
+    </ol>
+  </details>
+
   {% for brand, puzzles in puzzles.puzzlesAll | groupby("brand") %}
     {% set index = loop.index %}
-    <h2>{{ brand }}</h2>
+    <h2 id="{{ brand }}">{{ brand }}</h2>
     <ol>
       {% for puzzle in puzzles | sort(attribute='title') %}
         {% if puzzle.id > 0 %}
@@ -18,7 +29,7 @@ layout: layouts/page.njk
                 src="/assets/img/{{ puzzle.id  }}.webp"
               >
               {% if puzzle.done == true %}
-              <span class="filler"></span>
+                <span class="filler"></span>
                 {% include "./_includes/svg/checked.njk" %}
               {% endif %}
               <span class="pieces">{{ puzzle.pieces }}</span>

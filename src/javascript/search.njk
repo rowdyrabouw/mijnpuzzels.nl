@@ -1,0 +1,15 @@
+---
+permalink: "assets/js/search.js"
+---
+
+const puzzles = [ 
+{%- for puzzle in puzzles.puzzlesAll -%} 
+{%- if puzzle.ean -%}
+{ 
+  id: {{ puzzle.id }},
+  title: "{{ puzzle.title }}",
+  {%- if puzzle.eid -%}eid: {{ puzzle.eid }},{% endif %}
+  ean: {{ puzzle.ean }}
+},
+{% endif %}
+{%- endfor -%} ]; 
