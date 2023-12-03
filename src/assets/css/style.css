@@ -230,10 +230,6 @@ details[open] summary {
   border-radius: 4px;
 }
 
-#html5-qrcode-anchor-scan-type-change {
-  display: none;
-}
-
 #reader {
   border: 0 !important;
   width: 100%;
@@ -246,10 +242,6 @@ details[open] summary {
   min-height: 0 !important;
 }
 
-#html5-qrcode-select-camera {
-  display: none;
-}
-
 #reader__dashboard_section {
   padding: 16px 0 !important;
 }
@@ -259,10 +251,6 @@ details[open] summary {
   top: auto;
   right: auto;
 }
-#reader__dashboard_section_csr span:first-of-type {
-  display: none;
-}
-
 #html5-qrcode-anchor-scan-type-change {
   display: none !important;
 }
