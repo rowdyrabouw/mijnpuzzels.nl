@@ -12,8 +12,12 @@ layout: layouts/page.njk
   <div class="img">
     <img width="340" alt="" src="">
   </div>
-  <strong><span id="puzzleTitle"></span>
-    <span class="id" id="puzzleEid"></span>
+  <strong>
+    <div id="puzzleBrand"></div>
+    <div>
+      <span id="puzzleTitle"></span>
+      <span class="id" id="puzzleEid"></span>
+    </div>
   </strong>
 </div>
 
@@ -32,6 +36,8 @@ layout: layouts/page.njk
       puzzleFoundText.innerHTML = `De puzzel met EAN <b>${ean}</b> is gevonden.`;
       const img = document.querySelector("#puzzleFound img");
       img.src = `/assets/img/${puzzle.id}.webp`;
+      const puzzleBrand = document.querySelector("#puzzleBrand");
+      puzzleBrand.innerHTML = puzzle.brand;
       const puzzleTitle = document.querySelector("#puzzleTitle");
       puzzleTitle.innerHTML = puzzle.title;
       const puzzleExternalId = document.querySelector("#puzzleEid");
