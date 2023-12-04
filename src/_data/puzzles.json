@@ -4,42 +4,53 @@
     "brand": "1 Play",
     "title": "Amazing Puzzle Round Patchwork",
     "pieces": 500,
-    "done": true
+    "done": true,
+    "ean": 5711708106905
   },
   {
     "id": 2,
     "brand": "Cobble Hill",
     "title": "Blossoms and Kittens Quilt",
     "pieces": 1000,
-    "done": false
+    "done": false,
+    "eid": 80272,
+    "ean": 625012802727
   },
   {
     "id": 3,
     "brand": "Durabo",
     "title": "Bob Ross Snowy Mountains",
     "pieces": 1000,
-    "done": false
+    "done": false,
+    "eid": 1880679,
+    "ean": 8720512854602
   },
   {
     "id": 4,
     "brand": "Jumbo",
     "title": "Francien Horoscope",
     "pieces": 1000,
-    "done": true
+    "done": true,
+    "eid": 18853,
+    "ean": 8710126188538
   },
   {
     "id": 5,
     "brand": "MB",
     "title": "Snoopy Promenade",
     "pieces": 1000,
-    "done": false
+    "done": false,
+    "eid": 375521,
+    "ean": 5010993755219
   },
   {
     "id": 6,
     "brand": "Puzzelman",
     "title": "Heer Bommel en Tom Poes",
     "pieces": 1000,
-    "done": true
+    "done": true,
+    "eid": 455,
+    "ean": 5425014564556
   },
   {
     "id": 7,
@@ -47,7 +58,8 @@
     "title": "Exotic Escape",
     "pieces": 1000,
     "done": false,
-    "eid": 168279
+    "eid": 168279,
+    "ean": 4005556168279
   },
   {
     "id": 8,
@@ -55,7 +67,8 @@
     "title": "Adventures with Alice",
     "pieces": 1000,
     "done": false,
-    "eid": 167333
+    "eid": 167333,
+    "ean": 4005556167333
   },
   {
     "id": 9,
@@ -63,7 +76,8 @@
     "title": "Disney Toyshop",
     "pieces": 1000,
     "done": false,
-    "eid": 167340
+    "eid": 167340,
+    "ean": 4005556497812
   },
   {
     "id": 10,
@@ -71,7 +85,8 @@
     "title": "Justice League Challenge",
     "pieces": 1000,
     "done": false,
-    "eid": 168842
+    "eid": 168842,
+    "ean": 4005556168842
   },
   {
     "id": 11,
@@ -79,7 +94,8 @@
     "title": "Land of the Lorikeet",
     "pieces": 1000,
     "done": true,
-    "eid": 168156
+    "eid": 168156,
+    "ean": 4005556168156
   },
   {
     "id": 12,
@@ -87,7 +103,8 @@
     "title": "Marvel Challenge",
     "pieces": 1000,
     "done": true,
-    "eid": 165629
+    "eid": 165629,
+    "ean": 4005556165629
   },
   {
     "id": 13,
@@ -95,15 +112,17 @@
     "title": "Moments at Sea",
     "pieces": 1000,
     "done": true,
-    "eid": 169450
+    "eid": 169450,
+    "ean": 4005556169450
   },
   {
     "id": 14,
     "brand": "Ravensburger",
-    "title": "Nijntje Olifantjes",
+    "title": "99 Nijntjes",
     "pieces": 1000,
     "done": false,
-    "eid": 171545
+    "eid": 171545,
+    "ean": 4005556171545
   },
   {
     "id": 15,
@@ -111,7 +130,8 @@
     "title": "Peanuts",
     "pieces": 1000,
     "done": false,
-    "eid": 175390
+    "eid": 175390,
+    "ean": 4005556175390
   },
   {
     "id": 16,
@@ -119,7 +139,8 @@
     "title": "The Lion King",
     "pieces": 1000,
     "done": false,
-    "eid": 197477
+    "eid": 197477,
+    "ean": 4005556197477
   },
   {
     "id": 17,
@@ -127,35 +148,42 @@
     "title": "Tulips and Windmill",
     "pieces": 1000,
     "done": false,
-    "eid": 896066
+    "eid": 896066,
+    "ean": 4005556896066
   },
   {
     "id": 18,
     "brand": "Schmidt",
     "title": "Alice in Wonderland",
     "pieces": 1000,
-    "done": true
+    "done": true,
+    "eid": 59636,
+    "ean": 4001504596361
   },
   {
     "id": 19,
     "brand": "Schmidt",
     "title": "Snow White discovers the Cottage",
     "pieces": 1000,
-    "done": false
+    "done": false,
+    "eid": 59485,
+    "ean": 4001504594855
   },
   {
     "id": 20,
     "brand": "The House of Puzzles",
     "title": "Bee Happy",
     "pieces": 1000,
-    "done": false
+    "done": false,
+    "ean": 5060002006238
   },
   {
     "id": 21,
     "brand": "verstappen.com",
     "title": "Max Verstappen",
     "pieces": 1000,
-    "done": false
+    "done": false,
+    "ean": 8720812120001
   },
   {
     "id": 22,
@@ -163,7 +191,8 @@
     "title": "Cherry Blossom Time",
     "pieces": 1000,
     "done": true,
-    "eid": 167647
+    "eid": 167647,
+    "ean": 4005556167647
   },
   {
     "id": 23,
