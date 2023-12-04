@@ -170,7 +170,7 @@
     "brand": "King",
     "title": "Disney Kunstgallerij",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "eid": 5071,
     "ean": 8710125050713
   },
@@ -179,7 +179,7 @@
     "brand": "King",
     "title": "Animal Collection - Cats",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "eid": 5065,
     "ean": 8710125050652
   },
@@ -188,7 +188,60 @@
     "brand": "Otterhouse",
     "title": "Cattastic!",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "ean": 6655985473536
+  },
+  {
+    "id": 26,
+    "brand": "Schmidt",
+    "title": "Magische boom aan het meer",
+    "pieces": 1000,
+    "done": false,
+    "eid": 58392,
+    "ean": 4001504583927
+  },
+  {
+    "id": 27,
+    "brand": "Jt",
+    "title": "Lente",
+    "pieces": 1000,
+    "done": true,
+    "eid": 63499,
+    "ean": 8710125634999
+  },
+  {
+    "id": 28,
+    "brand": "Jt",
+    "title": "Zomer",
+    "pieces": 1000,
+    "done": true,
+    "eid": 63284,
+    "ean": 8710126632840
+  },
+  {
+    "id": 29,
+    "brand": "Ravensburger",
+    "title": "Circle of Colors",
+    "pieces": 500,
+    "done": true,
+    "eid": 171675,
+    "ean": 4005556171675
+  },
+  {
+    "id": 30,
+    "brand": "Ravensburger",
+    "title": "Postzegelverzameling",
+    "pieces": 1000,
+    "done": true,
+    "eid": 196074,
+    "ean": 4005556196074
+  },
+  {
+    "id": 31,
+    "brand": "Disneyland Paris",
+    "title": "Panorama",
+    "pieces": 1000,
+    "done": true,
+    "ean": 2071030010039
   }
 ]
