@@ -12,12 +12,10 @@ layout: layouts/page.njk
   <div class="img">
     <img width="340" alt="" src="">
   </div>
+  <h2 id="puzzleBrand"></h2>
   <strong>
-    <div id="puzzleBrand"></div>
-    <div>
       <span id="puzzleTitle"></span>
       <span class="id" id="puzzleEid"></span>
-    </div>
   </strong>
 </div>
 
@@ -56,6 +54,25 @@ layout: layouts/page.njk
 
   const btnPermission = document.querySelector("#html5-qrcode-button-camera-permission");
   btnPermission.innerText = "Camera";
+
+  const ean = 4005556196074;
+    const puzzle = puzzles.find((puzzle) => (puzzle.ean.toString().includes(ean)));
+    if (puzzle) {
+      const puzzleFound = document.querySelector("#puzzleFound");
+      puzzleFound.style.display = "block";
+      const puzzleFoundText = document.querySelector("#puzzleFoundText");
+      puzzleFoundText.innerHTML = `De puzzel met EAN <b>${ean}</b> is gevonden.`;
+      const img = document.querySelector("#puzzleFound img");
+      img.src = `/assets/img/${puzzle.id}.webp`;
+      const puzzleBrand = document.querySelector("#puzzleBrand");
+      puzzleBrand.innerHTML = puzzle.brand;
+      const puzzleTitle = document.querySelector("#puzzleTitle");
+      puzzleTitle.innerHTML = puzzle.title;
+      const puzzleExternalId = document.querySelector("#puzzleEid");
+      if (puzzle.eid) {
+        puzzleExternalId.innerHTML = `(${puzzle.eid})`;
+      }
+    }
 
 </script>
 

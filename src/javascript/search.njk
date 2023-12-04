@@ -7,6 +7,7 @@ const puzzles = [
 {%- if puzzle.ean -%}
 { 
   id: {{ puzzle.id }},
+  brand: "{{ puzzle.brand }}",
   title: "{{ puzzle.title }}",
   {%- if puzzle.eid -%}eid: {{ puzzle.eid }},{% endif %}
   ean: {{ puzzle.ean }}
