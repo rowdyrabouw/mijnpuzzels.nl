@@ -6,10 +6,7 @@
   padding: 8px 16px;
   border: 0;
   border-radius: 4px;
-}
-
-#html5-qrcode-anchor-scan-type-change {
-  // display: none;
+  margin-top: 16px;
 }
 
 #reader {
@@ -23,9 +20,6 @@
 #reader__scan_region {
   min-height: 0 !important;
 }
-#html5-qrcode-select-camera {
-  // display: none;
-}
 
 #reader__dashboard_section {
   padding: 16px 0 !important;
@@ -37,8 +31,8 @@
     top: auto;
     right: auto;
   }
-  span:first-of-type {
-    // display: none;
+  div {
+    display: block !important;
   }
 }
 

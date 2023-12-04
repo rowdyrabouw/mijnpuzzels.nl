@@ -228,6 +228,7 @@ details[open] summary {
   padding: 8px 16px;
   border: 0;
   border-radius: 4px;
+  margin-top: 16px;
 }
 
 #reader {
@@ -251,6 +252,10 @@ details[open] summary {
   top: auto;
   right: auto;
 }
+#reader__dashboard_section_csr div {
+  display: block !important;
+}
+
 #html5-qrcode-anchor-scan-type-change {
   display: none !important;
 }
