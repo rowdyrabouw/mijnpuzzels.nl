@@ -272,5 +272,13 @@
     "pieces": 1000,
     "done": true,
     "ean": 2071030010039
+  },
+  {
+    "id": 32,
+    "brand": "EuroGraphics",
+    "title": "Holiday Cats",
+    "pieces": 1000,
+    "done": true,
+    "ean": 628136609401
   }
 ]
