@@ -280,5 +280,14 @@
     "pieces": 1000,
     "done": true,
     "ean": 628136609401
+  },
+  {
+    "id": 33,
+    "brand": "Schmidt",
+    "title": "Bureau van een puzzelaar",
+    "pieces": 1000,
+    "done": false,
+    "eid": 58344,
+    "ean": 4001504583446
   }
 ]
