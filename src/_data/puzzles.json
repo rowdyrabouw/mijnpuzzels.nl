@@ -289,5 +289,31 @@
     "done": false,
     "eid": 58344,
     "ean": 4001504583446
+  },
+  {
+    "id": 34,
+    "brand": "Piece of Mind",
+    "title": "Muur van Katten",
+    "pieces": 1000,
+    "done": false,
+    "ean": 8720938384196
+  },
+  {
+    "id": 35,
+    "brand": "Schmidt",
+    "title": "Bambi",
+    "pieces": 1000,
+    "done": false,
+    "eid": 59486,
+    "ean": 4001504594862
+  },
+  {
+    "id": 36,
+    "brand": "Schmidt",
+    "title": "101 Dalmatiërs",
+    "pieces": 1000,
+    "done": false,
+    "eid": 59489,
+    "ean": 4001504594893
   }
 ]
