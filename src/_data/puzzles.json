@@ -315,5 +315,14 @@
     "done": false,
     "eid": 59489,
     "ean": 4001504594893
+  },
+  {
+    "id": 37,
+    "brand": "Ravensburger",
+    "title": "Peanuts Graffiti",
+    "pieces": 500,
+    "done": false,
+    "eid": 175383,
+    "ean": 4005556175383
   }
 ]
