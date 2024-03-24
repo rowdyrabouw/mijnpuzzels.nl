@@ -324,5 +324,23 @@
     "done": false,
     "eid": 175383,
     "ean": 4005556175383
+  },
+  {
+    "id": 38,
+    "brand": "Ravensburger",
+    "title": "Knitty Kitty",
+    "pieces": 1000,
+    "done": false,
+    "eid": 172702,
+    "ean": 4005556172702
+  },
+  {
+    "id": 39,
+    "brand": "Ravensburger",
+    "title": "Our Feathered Friends",
+    "pieces": 1000,
+    "done": false,
+    "eid": 172726,
+    "ean": 4005556172726
   }
 ]
