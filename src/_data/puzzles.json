@@ -369,5 +369,13 @@
     "done": false,
     "eid": 172108,
     "ean": 4005556172108
+  },
+  {
+    "id": 43,
+    "brand": "Clementoni",
+    "title": "Impossible Peanuts Snoopy",
+    "pieces": 1000,
+    "done": false,
+    "ean": 8005125398041
   }
 ]
