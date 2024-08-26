@@ -250,7 +250,7 @@
   {
     "id": 29,
     "brand": "Ravensburger",
-    "title": "Circle of Colors",
+    "title": "Circle of Colors - Flowers",
     "pieces": 500,
     "done": true,
     "eid": 171675,
@@ -386,5 +386,165 @@
     "done": false,
     "eid": 17475,
     "ean": 4005556174751
+  },
+  {
+    "id": 45,
+    "brand": "Puzzelman",
+    "title": "Gouda Kaasmarkt",
+    "pieces": 1000,
+    "done": false,
+    "eid": 316,
+    "ean": 5425014563160
+  },
+  {
+    "id": 46,
+    "brand": "Ravensburger",
+    "title": "Wondrous Trees",
+    "pieces": 1000,
+    "done": true,
+    "eid": 164219,
+    "ean": 4005556164219
+  },
+  {
+    "id": 47,
+    "brand": "MAF",
+    "title": "Gouda Puzzel #2",
+    "pieces": 1000,
+    "done": false,
+    "ean": 5947502879596
+  },
+  {
+    "id": 48,
+    "brand": "Ravensburger",
+    "title": "Circle of Colors - Ocean",
+    "pieces": 1000,
+    "done": false,
+    "eid": 171705,
+    "ean": 4005556171705
+  },
+  {
+    "id": 49,
+    "brand": "Jumbo",
+    "title": "Janneke Brinkman: Birds & Flowers",
+    "pieces": 950,
+    "done": false,
+    "eid": 82124,
+    "ean": 8710126821244
+  },
+  {
+    "id": 50,
+    "brand": "Ravensburger",
+    "title": "Disney Pixar Moments",
+    "pieces": 1000,
+    "done": false,
+    "eid": 819041,
+    "ean": 4005556819041
+  },
+  {
+    "id": 51,
+    "brand": "Jumbo",
+    "title": "Francien Cat Portraits",
+    "pieces": 950,
+    "done": false,
+    "eid": 82120,
+    "ean": 8710126821206
+  },
+  {
+    "id": 52,
+    "brand": "Jumbo",
+    "title": "Francien Let's Play",
+    "pieces": 950,
+    "done": false,
+    "eid": 82126,
+    "ean": 8710126821268
+  },
+  {
+    "id": 53,
+    "brand": "Piece of Mind",
+    "title": "Muur van Katten",
+    "pieces": 1000,
+    "done": true,
+    "ean": 8720938384196
+  },
+  {
+    "id": 54,
+    "brand": "King",
+    "title": "Rainbow Birds",
+    "pieces": 1000,
+    "done": false,
+    "eid": 57076,
+    "ean": 8710125570761
+  },
+  {
+    "id": 55,
+    "brand": "Jt",
+    "title": "Rozen",
+    "pieces": 1000,
+    "done": true,
+    "eid": 63283,
+    "ean": 8710126632833
+  },
+  {
+    "id": 56,
+    "brand": "Otter House",
+    "title": "Butterfly Garden",
+    "pieces": 1000,
+    "done": true,
+    "eid": 59603,
+    "ean": 6655985960302
+  },
+  {
+    "id": 57,
+    "brand": "King",
+    "title": "Zaanse Schans",
+    "pieces": 1000,
+    "done": true,
+    "eid": 5722,
+    "ean": 8710125057224
+  },
+  {
+    "id": 58,
+    "brand": "Jt",
+    "title": "Boeddha",
+    "pieces": 1000,
+    "done": false,
+    "eid": 63556,
+    "ean": 8710125635569
+  },
+  {
+    "id": 59,
+    "brand": "Werbeplantage",
+    "title": "Burg Hohenzollern",
+    "pieces": 500,
+    "done": false,
+    "eid": 1764320,
+    "ean": 13105
+  },
+  {
+    "id": 60,
+    "brand": "King",
+    "title": "Landmarks of the World",
+    "pieces": 1000,
+    "done": false,
+    "eid": 5119,
+    "ean": 8710125051192
+  },
+  {
+    "id": 61,
+    "brand": "Ravensburger",
+    "title": "99 Amazing Animals",
+    "pieces": 1000,
+    "done": false,
+    "eid": 159833,
+    "ean": 4005556159833
+  },
+  {
+    "id": 62,
+    "brand": "Wiebe van der Zee",
+    "title": "Kukelemorgen & Heerlijk Scharrelen",
+    "pieces": 1000,
+    "done": false,
+    "eid": 171188,
+    "ean": 8717823711885
   }
 ]
