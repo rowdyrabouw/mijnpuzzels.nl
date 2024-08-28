@@ -609,5 +609,84 @@
     "done": true,
     "eid": 196432,
     "ean": 4005556196432
+  },
+  {
+    "id": 70,
+    "brand": "EuroGraphics",
+    "title": "The World of Cats",
+    "pieces": 1000,
+    "done": true,
+    "ean": 628136605809
+  },
+  {
+    "id": 71,
+    "brand": "Ravensburger",
+    "title": "Snoopy at the Aquarium",
+    "pieces": 300,
+    "done": true,
+    "eid": 130740,
+    "ean": 4005556130740
+  },
+  {
+    "id": 72,
+    "brand": "Ravensburger",
+    "title": "Snoopy I: King of Peanuts",
+    "pieces": 500,
+    "done": true,
+    "eid": 141906,
+    "ean": 4005556141906
+  },
+  {
+    "id": 73,
+    "brand": "Clementoni",
+    "title": "Disney Art Puzzle - The School of Disney",
+    "pieces": 1000,
+    "done": true,
+    "eid": 39131,
+    "ean": 8005125391318
+  },
+  {
+    "id": 74,
+    "brand": "Clementoni",
+    "title": "Disney Snow White",
+    "pieces": 1000,
+    "done": true,
+    "eid": 92585,
+    "ean": 8005125925858
+  },
+  {
+    "id": 75,
+    "brand": "Jumbo",
+    "title": "Janneke Brinkman: Beautiful Butterflies",
+    "pieces": 950,
+    "done": true,
+    "eid": 81807,
+    "ean": 8710126818077
+  },
+  {
+    "id": 76,
+    "brand": "Jumbo",
+    "title": "Francien: Cat Portraits",
+    "pieces": 950,
+    "done": true,
+    "eid": 82120,
+    "ean": 8710126821206
+  },
+  {
+    "id": 77,
+    "brand": "Grafix",
+    "title": "Mandala",
+    "pieces": 1000,
+    "done": false,
+    "eid": 400052,
+    "ean": 8715427085746
+  },
+  {
+    "id": 78,
+    "brand": "EuroGraphics",
+    "title": "Yoga is a Family Activity",
+    "pieces": 500,
+    "done": true,
+    "ean": 628136753548
   }
 ]
