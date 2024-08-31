@@ -295,7 +295,7 @@
     "brand": "Piece of Mind",
     "title": "Muur van Katten",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "ean": 8720938384196
   },
   {
@@ -457,14 +457,6 @@
     "done": false,
     "eid": 82126,
     "ean": 8710126821268
-  },
-  {
-    "id": 53,
-    "brand": "Piece of Mind",
-    "title": "Muur van Katten",
-    "pieces": 1000,
-    "done": true,
-    "ean": 8720938384196
   },
   {
     "id": 54,
