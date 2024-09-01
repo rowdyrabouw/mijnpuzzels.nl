@@ -312,7 +312,7 @@
     "brand": "Schmidt",
     "title": "101 Dalmatiërs",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "eid": 59489,
     "ean": 4001504594893
   },
