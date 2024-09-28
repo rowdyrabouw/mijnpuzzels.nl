@@ -838,5 +838,13 @@
     "done": true,
     "eid": 196425,
     "ean": 4005556196425
+  },
+  {
+    "id": 97,
+    "brand": "Miniso",
+    "title": "Peanuts: Reach for the Stars",
+    "pieces": 1000,
+    "done": false,
+    "ean": 6942269549354
   }
 ]
