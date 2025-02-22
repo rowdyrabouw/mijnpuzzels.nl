@@ -863,5 +863,22 @@
     "pieces": 1000,
     "done": false,
     "ean": 8715275555668
+  },
+  {
+    "id": 100,
+    "brand": "Schmidt",
+    "title": "Kat Gezichtsuitdrukkingen",
+    "pieces": 1000,
+    "done": false,
+    "eid": 59759,
+    "ean": 4001504597597
+  },
+  {
+    "id": 101,
+    "brand": "Magnolia",
+    "title": "Tree in Autumn",
+    "pieces": 1000,
+    "done": false,
+    "ean": 8699375068771
   }
 ]
