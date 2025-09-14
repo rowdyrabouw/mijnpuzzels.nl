@@ -1012,5 +1012,13 @@
     "pieces": 1000,
     "done": false,
     "ean": 8005125398898
+  },
+  {
+    "id": 119,
+    "brand": "M-Extra",
+    "title": "Budapest",
+    "pieces": 1000,
+    "done": false,
+    "ean": 1010000170527
   }
 ]
