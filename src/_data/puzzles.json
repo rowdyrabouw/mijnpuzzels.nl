@@ -179,7 +179,7 @@
   },
   {
     "id": 21,
-    "brand": "verstappen.com",
+    "brand": "Verstappen.com",
     "title": "Max Verstappen",
     "pieces": 1000,
     "done": false,
@@ -771,7 +771,7 @@
   },
   {
     "id": 89,
-    "brand": "fotopuzzel.nl",
+    "brand": "Fotopuzzel.nl",
     "title": "Kiddies",
     "pieces": 1000,
     "done": false
@@ -1036,5 +1036,71 @@
     "pieces": 1000,
     "done": false,
     "ean": 8721017605171
+  },
+  {
+    "id": 122,
+    "brand": "Jumbo",
+    "title": "Francien Cat Friends",
+    "pieces": 950,
+    "done": false,
+    "ean": 8710126819722
+  },
+  {
+    "id": 123,
+    "brand": "Clementoni",
+    "title": "Himeji Castle in Spring",
+    "pieces": 1000,
+    "done": false,
+    "ean": 8005125399826
+  },
+  {
+    "id": 124,
+    "brand": "Ravensburger",
+    "title": "Circle of Colors Tropical",
+    "pieces": 500,
+    "done": false,
+    "ean": 4005555008217
+  },
+  {
+    "id": 125,
+    "brand": "Ravensburger",
+    "title": "The Four Seasons",
+    "pieces": 1000,
+    "done": false,
+    "ean": 4005555001270
+  },
+  {
+    "id": 126,
+    "brand": "Ravensburger",
+    "title": "Bloemenweide",
+    "pieces": 1000,
+    "done": false,
+    "eid": 889235,
+    "ean": 4005556889235
+  },
+  {
+    "id": 127,
+    "brand": "Ravensburger",
+    "title": "Marevellous Moths",
+    "pieces": 1000,
+    "done": false,
+    "eid": 168743,
+    "ean": 4005556168743
+  },
+  {
+    "id": 128,
+    "brand": "Educa",
+    "title": "Llama Drama Selfie",
+    "pieces": 1000,
+    "done": false,
+    "eid": 18117,
+    "ean": 8412668181175
+  },
+  {
+    "id": 129,
+    "brand": "PuzzleYOU",
+    "title": "Rock of Dunamase",
+    "pieces": 1000,
+    "done": false
   }
 ]
