@@ -66,7 +66,7 @@
     "brand": "Ravensburger",
     "title": "Adventures with Alice",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "eid": 167333,
     "ean": 4005556167333
   },
@@ -375,7 +375,7 @@
     "brand": "Clementoni",
     "title": "Impossible Peanuts Snoopy",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "ean": 8005125398041
   },
   {
@@ -454,7 +454,7 @@
     "brand": "Jumbo",
     "title": "Francien Let's Play",
     "pieces": 950,
-    "done": false,
+    "done": true,
     "eid": 82126,
     "ean": 8710126821268
   },
@@ -1002,7 +1002,7 @@
     "brand": "Ravensburger",
     "title": "Magical Deer",
     "pieces": 1008,
-    "done": false,
+    "done": true,
     "ean": 4005555004592
   },
   {
@@ -1018,7 +1018,7 @@
     "brand": "M-Extra",
     "title": "Budapest",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "ean": 1010000170527
   },
   {
@@ -1042,7 +1042,7 @@
     "brand": "Jumbo",
     "title": "Francien Cat Friends",
     "pieces": 950,
-    "done": false,
+    "done": true,
     "ean": 8710126819722
   },
   {
@@ -1125,7 +1125,7 @@
     "brand": "Enjoy Puzzle",
     "title": "Flower Teddy Bear",
     "pieces": 1000,
-    "done": false,
+    "done": true,
     "eid": 2150,
     "ean": 5949194021505
   },
