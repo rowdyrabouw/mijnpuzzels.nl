@@ -4,6 +4,12 @@ layout: layouts/page.njk
 
 <div class="wrapper">
 
+  <div class="filter" role="group" aria-label="Filter">
+    <button class="active" data-filter="all">Alle</button>
+    <button data-filter="done">Gelegd</button>
+    <button data-filter="not-done">Niet gelegd</button>
+  </div>
+
   <details>
     <summary>Merk</summary>
     <ol>
@@ -20,7 +26,7 @@ layout: layouts/page.njk
     <ol>
       {% for puzzle in puzzles | sort(attribute='title') %}
         {% if puzzle.id > 0 %}
-          <li>
+          <li data-done="{{ puzzle.done }}">
             <div class="img">
               <img 
               {% if index > 2 %}loading="lazy"{% endif %}
@@ -43,3 +49,18 @@ layout: layouts/page.njk
     </ol>
   {% endfor %}
 </div>
+
+<script>
+  document.querySelector('.filter').addEventListener('click', (e) => {
+    const btn = e.target.closest('button');
+    if (!btn) return;
+    const filter = btn.dataset.filter;
+    document.querySelectorAll('.filter button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('li[data-done]').forEach(li => {
+      if (filter === 'all') li.hidden = false;
+      else if (filter === 'done') li.hidden = li.dataset.done !== 'true';
+      else li.hidden = li.dataset.done === 'true';
+    });
+  });
+</script>

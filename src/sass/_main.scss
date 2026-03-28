@@ -72,6 +72,27 @@ div {
   }
 }
 
+.filter {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  button {
+    flex: 1;
+    padding: 8px 16px;
+    border: 1px solid $color-text;
+    border-radius: 4px;
+    background-color: $color-background;
+    color: $color-text;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    &.active {
+      background-color: $color-text;
+      color: $color-background;
+    }
+  }
+}
+
 details {
   border: 1px solid $color-text;
   border-radius: 4px;
