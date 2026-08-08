@@ -957,7 +957,7 @@
   },
   {
     "id": 112,
-    "brand": "Shapes puzzle",
+    "brand": "Shaped puzzle",
     "title": "Peonies & Camellias",
     "pieces": 650,
     "done": true,
@@ -965,7 +965,7 @@
   },
   {
     "id": 113,
-    "brand": "Shapes puzzle",
+    "brand": "Shaped puzzle",
     "title": "Tulips",
     "pieces": 700,
     "done": false,
@@ -1154,5 +1154,45 @@
     "done": false,
     "eid": 20197,
     "ean": 5903728720197
+  },
+  {
+    "id": 136,
+    "brand": "Shaped puzzle",
+    "title": "Roses & Gerberas",
+    "pieces": 700,
+    "done": false,
+    "ean": 6150606944964
+  },
+  {
+    "id": 137,
+    "brand": "Shaped puzzle",
+    "title": "Tulips & Daisies",
+    "pieces": 700,
+    "done": false,
+    "ean": 6150607037009
+  },
+  {
+    "id": 138,
+    "brand": "Cavallini & Co.",
+    "title": "Flora Specimens",
+    "pieces": 1000,
+    "done": false,
+    "ean": 9781639474349
+  },
+  {
+    "id": 139,
+    "brand": "Ravensburger",
+    "title": "Nijntje Portretten",
+    "pieces": 500,
+    "done": false,
+    "ean": 4005556171569
+  },
+  {
+    "id": 140,
+    "brand": "Ravensburger",
+    "title": "Bambi",
+    "pieces": 1000,
+    "done": false,
+    "ean": 4005555003137
   }
 ]
